@@ -11,13 +11,14 @@ function url(input){
 function onClickSubmitButton(){
     console.log("The function is called!!");
     var input = inputText.value;
-   fetch(url(input)).then(json => res.json()).then(json => {
-outputDiv.innerText = json.contents;
+   fetch(url(input)).then(res => res.json()).then(json => {
+       console.log(json.contents.tranlated);
+outputDiv.innerText = json.contents.tranlated;
    })
 
 
 }
 
-if(submitbtn){
+
     submitbtn.addEventListener("click",onClickSubmitButton);
-}
+
