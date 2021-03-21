@@ -1,0 +1,15 @@
+.notification{
+position: fixed;
+bottom: 1rem;
+left: 1rem;
+border: 1px solid black;
+
+}
+
+.card .thumbnail{
+    position: relative;
+}
+
+.card .remove{
+    
+}

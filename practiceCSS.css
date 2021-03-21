@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    /* align-items: center;
+    height: 800px; */
+    flex-wrap: wrap;    
+}
+
+
+.card{
+    display: flex;
+    border: 1px solid black;
+    /* justify-content:space-between; */
+    margin: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+    max-width: 250px; 
+}
+
+
+
+.card >p{
+    flex-grow: 1;
+}

@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    /* align-items: center; */
+    height: 1200px;
+     /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    border: 1px solid black;
+    margin: 1.5rem;
+    padding: 1rem;
+    max-width: 250px;
+    flex-direction: column;
+ 
+}
+
+/* .card > p:nth-child(1){
+    flex-grow: 2;
+} */
+.card > p{
+    flex-grow: 1;
+}
+.card > h2{
+   height: 6rem;
+}
+
+.cardBottem {
+    align-self: flex-end;
+}
+
+.superscript{
+    position: relative;
+    bottom: .7rem;
+    font-size: .4em;
+}
+.notification{
+    position: fixed;
+    bottom: 1rem;
+    /* left: 1rem; */
+}
+
+.card > div{
+    position: relative;
+    width: 100%;
+}
+.card >div> p{
+    position: absolute;
+    bottom: 7rem;
+}
+
+.cross-button{
+    position: absolute;
+  right: .1rem;
+    
+}
+img{
+    width: 100%;
+}

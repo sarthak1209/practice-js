@@ -1,0 +1,35 @@
+div{
+  display: grid;
+  grid-template-areas: "head head "
+                      
+                       "nav main ";
+
+max-width: 60%;
+margin: auto;
+ grid-template-columns: 1fr 5fr;
+
+}
+
+
+
+.align-text{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 2rem;
+}
+
+
+header{
+    border: 1px solid black;
+    grid-area: head;
+}
+
+nav{
+    border: 1px solid black;
+    grid-area: nav;
+}
+
+main{
+    border: 1px solid black;
+    grid-area: main;
+}
